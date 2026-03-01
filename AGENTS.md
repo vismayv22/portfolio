@@ -2,6 +2,10 @@
 
 You are assisting in building a production-quality Next.js portfolio.
 
+All code generation must strictly follow ARCHITECTURE.md.
+Do not introduce dependencies without explicit approval.
+Do not modify global styles or folder structure unless specified.
+
 ## Tech Stack
 - Next.js (App Router)
 - TypeScript (strict mode)
