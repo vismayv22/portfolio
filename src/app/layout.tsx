@@ -15,8 +15,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "Personal portfolio — projects and experience",
+  title: "Vismay Valsaraj | Frontend Engineer",
+  description:
+    "Frontend Engineer specializing in React, Next.js, and scalable UI architecture. Explore my projects and technical insights on building performant web applications.",
+  keywords: ['frontend', 'react', 'nextjs', 'javascript', 'typescript'],
+  openGraph: {
+    title: "Vismay Valsaraj | Frontend Engineer",
+    description:
+      "Frontend Engineer specializing in React, Next.js, and scalable UI architecture.",
+    url: "https://portfolio-mu-navy-2vw80c7f17.vercel.app/",
+    images: '/images/vismay_portrait.jpeg',
+    siteName: "Vismay Portfolio",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
