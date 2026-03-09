@@ -41,7 +41,7 @@ export function AboutVisualPanel() {
             <span className="text-foreground/60">focus</span>
             <span className="text-foreground">:</span>{" "}
             <span className="text-foreground/80">
-              &quot;scalable UI, performance, and DX&quot;
+              &quot;scalable interfaces, performance, thoughtful DX&quot;
             </span>
           </p>
           <p>
@@ -57,7 +57,7 @@ export function AboutVisualPanel() {
           {skills.map((skill) => (
             <div
               key={skill.label}
-              className="group rounded-2xl border border-foreground/10 bg-background/70 p-3 text-xs transition-transform duration-300 ease-out hover:-translate-y-1 hover:bg-background-muted/80 sm:text-[0.78rem]"
+              className="group rounded-2xl border border-foreground/10 bg-background/70 p-3 text-xs transition-transform duration-300 ease-out hover:bg-background-muted/80 sm:text-[0.78rem]"
             >
               <p className="mb-1 flex items-center justify-between gap-2 text-[0.7rem] font-semibold tracking-wide text-foreground/80">
                 <span>{skill.label}</span>
